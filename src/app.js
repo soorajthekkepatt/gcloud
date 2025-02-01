@@ -8,6 +8,11 @@ app.get('/',(req,res)=>{
     res.send('<h1>Hello World</h1>')
 })
 
+app.get('/hello',(req,res)=>{
+    res.send('<h1>Hello Node</h1>')
+})
+
+
 server.listen(port,()=>{
     console.log(`server running on ${port}`)
 })
